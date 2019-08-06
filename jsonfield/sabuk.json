@@ -1,0 +1,13 @@
+{
+    "fields": [
+        
+        {
+            "name": "SabukKode",
+            "type": "string"
+        },
+        {
+            "name": "SabukNama",
+            "type": "string"
+        }
+    ]
+}

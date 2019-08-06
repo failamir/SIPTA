@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "name": "id_ukt",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "id_anggota",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "duSabukUjian",
+            "type": "string"
+        },
+        {
+            "name": "duStatus",
+            "type": "select",
+            "options": {
+                "0": "Aktif",
+                "1": "Non Aktif",
+                "2": "Di Blok"
+            }
+        }
+    ]
+}

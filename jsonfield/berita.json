@@ -1,0 +1,18 @@
+{
+    "fields": [
+        
+        {
+            "name": "beritaJudul",
+            "type": "string"
+        },
+        {
+            "name": "beritaTgl",
+            "type": "date"
+        },
+        {
+            "name": "beritaIsi",
+            "type": "text"
+        }
+        
+    ]
+}

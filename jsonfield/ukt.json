@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "uktKode",
+            "type": "string"
+        },
+        {
+            "name": "uktPeriode",
+            "type": "string"
+        },
+        {
+            "name": "uktDeskripsi",
+            "type": "text"
+        },
+        {
+            "name": "uktTglDeskripsi",
+            "type": "date"
+        },
+        {
+            "name": "uktStatus",
+            "type": "select",
+            "options": {
+                "0": "Aktif",
+                "1": "Non Aktif",
+                "2": "Di Blok"
+            }
+        }
+    ]
+}

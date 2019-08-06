@@ -1,0 +1,17 @@
+{
+    "fields": [
+        {
+            "name": "id_restasi",
+            "type": "integer#unsigned"
+        },
+        
+        {
+            "name": "dpJuara",
+            "type": "string"
+        },
+        {
+            "name": "dpMedali",
+            "type": "string"
+        }
+    ]
+}

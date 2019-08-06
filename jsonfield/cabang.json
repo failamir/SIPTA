@@ -1,0 +1,13 @@
+{
+    "fields": [
+        
+        {
+            "name": "cabangKode",
+            "type": "string"
+        },
+        {
+            "name": "cabangNama",
+            "type": "string"
+        }
+    ]
+}

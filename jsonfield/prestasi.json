@@ -1,0 +1,21 @@
+{
+    "fields": [
+        {
+            "name": "id_kejuaraan",
+            "type": "integer#unsigned"
+        },
+        
+        {
+            "name": "prestasiTgl",
+            "type": "date"
+        },
+        {
+            "name": "prestasiTingkat",
+            "type": "string"
+        },
+        {
+            "name": "prestasiJmlMedali",
+            "type": "number"
+        }
+    ]
+}

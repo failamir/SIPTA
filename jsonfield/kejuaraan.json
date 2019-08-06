@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "name": "kejNama",
+            "type": "string"
+        },
+        {
+            "name": "kejTglBatas",
+            "type": "string"
+        },
+        {
+            "name": "kejDeskripsi",
+            "type": "text"
+        },
+        {
+            "name": "kejStatus",
+            "type": "select",
+            "options": {
+                "0": "Aktif",
+                "1": "Non Aktif",
+                "2": "Di Blok"
+            }
+        }
+    ]
+}

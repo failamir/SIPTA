@@ -1,0 +1,61 @@
+{
+    "fields": [
+        {
+            "name": "id_cabang",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "id_sabuk",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "id_dp",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "anggotaNama",
+            "type": "string"
+        },
+        {
+            "name": "anggotaNim",
+            "type": "string"
+        },
+        {
+            "name": "anggotaPassword",
+            "type": "string"
+        },
+        {
+            "name": "anggotaRiwayatPenyakit",
+            "type": "string"
+        },
+        {
+            "name": "anggotaTglLahir",
+            "type": "string"
+        },
+        {
+            "name": "anggotaHp",
+            "type": "number"
+        },
+        {
+            "name": "anggotaAngkatan",
+            "type": "number"
+        },
+        {
+            "name": "anggotaJK",
+            "type": "string"
+        },
+        {
+            "name": "anggotaJur",
+            "type": "string"
+        },
+        {
+            "name": "duStatus",
+            "type": "select",
+            "options": {
+                "0": "Aktif",
+                "1": "Non Aktif",
+                "2": "Di Blok"
+            }
+        }
+    ]
+}
